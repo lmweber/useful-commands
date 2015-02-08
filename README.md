@@ -23,7 +23,7 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `ls -alh`
 
 
-#### git/GitHub - set up a repository
+#### git/GitHub — set up a repository
 
 `git init` to create local repository in a folder
 
@@ -34,7 +34,7 @@ manually create `README.md`, `.gitignore`, and `LICENSE` files
 `git add .` to add new files
 
 
-#### git/GitHub - commit changes
+#### git/GitHub — commit changes
 
 `git add .` (if no new files can skip this and go straight to commit)
 
