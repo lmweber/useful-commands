@@ -10,7 +10,7 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 
 `command-shift-4` : selectable area
 
-`command-shift-4` then `space` : specific window
+`command-shift-4` then `space` : single window
 
 
 #### Check CPU cores
