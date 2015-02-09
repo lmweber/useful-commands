@@ -30,6 +30,21 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `sysctl hw.ncpu hw.physicalcpu hw.logicalcpu`
 
 
+#### check Linux system/distribution info
+
+`cat /etc/*-release`
+
+`uname -a`
+
+`free`
+
+`top`
+
+`cat /proc/meminfo`
+
+`cat /proc/cpuinfo`
+
+
 #### ls options
 
 `ls -alh`
