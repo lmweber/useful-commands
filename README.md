@@ -18,7 +18,14 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `control-click` then select `Open`
 
 
-#### Check CPU cores
+#### connect to server
+
+`ssh servername.uzh.ch` then enter password
+
+`ssh -X servername.uzh.ch` if using GUI applications (then just launch apps as usual — requires XQuartz on Mac OSX)
+
+
+#### check CPU cores
 
 `sysctl hw.ncpu hw.physicalcpu hw.logicalcpu`
 
