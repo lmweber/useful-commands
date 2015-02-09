@@ -25,24 +25,20 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `ssh -X servername.uzh.ch` if using GUI applications (then just launch apps as usual — requires XQuartz on Mac OSX)
 
 
-#### check CPU cores
-
-`sysctl hw.ncpu hw.physicalcpu hw.logicalcpu`
-
-
 #### check Linux system/distribution info
 
-`cat /etc/*-release`
+`cat /etc/*-release`, `uname -a`
 
-`uname -a`
+`nproc`, `lscpu`
 
-`free`
+`free`, `top`
 
-`top`
+`cat /proc/meminfo`, `cat /proc/cpuinfo`
 
-`cat /proc/meminfo`
 
-`cat /proc/cpuinfo`
+#### check CPU cores (Mac OSX)
+
+`sysctl hw.ncpu hw.physicalcpu hw.logicalcpu`
 
 
 #### ls options
@@ -53,6 +49,23 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 #### set path
 
 `export PATH=~/custom_directory:$PATH` (paste in `.bash_profile` or `.bashrc` file; note order of terms matters — first has highest priority)
+
+
+#### install program in home directory (Linux)
+
+`wget http://.../filename.tar.gz` : download .tar.gz source archive (run in `/home/username/src` folder to save it there)
+
+`tar xfvz filename.tar.gz` : uncompress .tar.gz source archive (run in `home/username/src`)
+
+`cd filename` : go to uncompressed source directory
+
+`./configure --prefix=$HOME` : run configure script (performs installation checks and creates Makefile)
+
+* **IMPORTANT**: include the option `--prefix=$HOME` to install the program in your home directory instead of the default Linux binary directories
+
+`make` : run Makefile (compiles the program and creates executables)
+
+`make install` : run install part of Makefile (copies executables into directories)
 
 
 #### git/GitHub — set up a repository
