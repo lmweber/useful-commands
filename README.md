@@ -23,6 +23,11 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `ls -alh`
 
 
+#### set path
+
+`export PATH=~/custom_directory/:$PATH` (paste in `.bash_profile` or `.bashrc` file; note order of terms matters — first has highest priority)
+
+
 #### git/GitHub — set up a repository
 
 `git init` to create local repository in a folder
