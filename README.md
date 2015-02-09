@@ -13,6 +13,11 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `command-shift-4` then `space` : single window
 
 
+#### run app downloaded from internet (Mac OSX)
+
+`control-click` then select `Open`
+
+
 #### Check CPU cores
 
 `sysctl hw.ncpu hw.physicalcpu hw.logicalcpu`
@@ -25,7 +30,7 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 
 #### set path
 
-`export PATH=~/custom_directory/:$PATH` (paste in `.bash_profile` or `.bashrc` file; note order of terms matters — first has highest priority)
+`export PATH=~/custom_directory:$PATH` (paste in `.bash_profile` or `.bashrc` file; note order of terms matters — first has highest priority)
 
 
 #### git/GitHub — set up a repository
