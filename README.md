@@ -88,7 +88,7 @@ manually create `README.md`, `.gitignore`, and `LICENSE` files
 `git push -u origin master` to push to GitHub
 
 
-#### git/GitHub - pull changes to merge with local repository
+#### git/GitHub — pull changes to merge with local repository
 
 `git pull origin`
 
