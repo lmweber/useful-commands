@@ -46,6 +46,11 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `ls -alh`
 
 
+#### check file type
+
+`file filename` : for example to check which type of compressed file
+
+
 #### set path
 
 `export PATH=~/custom_directory:$PATH` (paste in `.bash_profile` or `.bashrc` file; note order of terms matters — first has highest priority)
