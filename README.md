@@ -73,6 +73,11 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `make install` : run install part of Makefile (copies executables into directories)
 
 
+#### screen
+
+list of screen commands: http://aperiodic.net/screen/quick_reference
+
+
 #### git/GitHub — set up a repository
 
 `git init` to create local repository in a folder
