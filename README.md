@@ -31,7 +31,7 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 
 `nproc`, `lscpu`
 
-`free`, `top`
+`free`, `top`, `df -H`
 
 `cat /proc/meminfo`, `cat /proc/cpuinfo`
 
