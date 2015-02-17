@@ -46,6 +46,11 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `ls -alh`
 
 
+#### show disk usage of directories
+
+`du -ahc --max-depth=1`
+
+
 #### check file type
 
 `file filename` : for example to check which type of compressed file
