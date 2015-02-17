@@ -13,6 +13,11 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `command-shift-4` then `space` : single window
 
 
+#### em dash (Mac OSX)
+
+`Option`-`Shift`-`-`
+
+
 #### run app downloaded from internet (Mac OSX)
 
 `control-click` then select `Open`
