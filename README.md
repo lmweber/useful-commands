@@ -15,7 +15,7 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 
 #### em dash (Mac OSX)
 
-`Option`-`Shift`-`-`
+`option-shift-dash`
 
 
 #### run app downloaded from internet (Mac OSX)
