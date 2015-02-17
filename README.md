@@ -78,9 +78,19 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `make install` : run install part of Makefile (copies executables into directories)
 
 
-#### screen
+#### GNU screen
 
-list of screen commands: http://aperiodic.net/screen/quick_reference
+GNU screen is useful when working on a server, since programs running in a screen session will continue to run even if the server connection is interrupted.
+
+`screen` or `screen -S <name>` : create new screen session (with optional name)
+
+`screen -x` or `screen -r <name>` : attach to running screen session (with optional name)
+
+`exit` : close session
+
+`screen -ls` : list running screen sessions
+
+full list of screen commands: http://aperiodic.net/screen/quick_reference
 
 
 #### git/GitHub — set up a repository
