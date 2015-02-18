@@ -48,7 +48,7 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 
 #### ls options
 
-`ls -alh`
+`ls -alh` : list files — including hidden files and directories (-a), long format details (-l), and human readable file sizes (-h)
 
 
 #### show disk usage of directories
@@ -58,22 +58,22 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 
 #### check file type
 
-`file filename` : for example to check which type of compressed file
+`file <filename>` : for example to check which type of compressed file
 
 
 #### number of lines in a text file
 
-`wc -l <filename>`
+`wc -l <filename>` : stands for word count, number of lines
 
 
 #### set path
 
-`export PATH=~/custom_directory:$PATH` (paste in `.bash_profile` or `.bashrc` file; note order of terms matters — first has highest priority)
+`export PATH=~/new_directory:$PATH` (paste in `.bash_profile` or `.bashrc` file; note order of terms matters — first has highest priority)
 
 
 #### install program in home directory (Linux)
 
-`wget http://.../filename.tar.gz` : download .tar.gz source archive (run in `/home/username/src` folder to save it there)
+`wget http://address.of.file/filename.tar.gz` : download .tar.gz source archive (run in `/home/username/src` folder to save it there)
 
 `tar xfvz filename.tar.gz` : uncompress .tar.gz source archive (run in `home/username/src`)
 
@@ -109,7 +109,7 @@ full list of screen commands: http://aperiodic.net/screen/quick_reference
 
 manually create `README.md`, `.gitignore`, and `LICENSE` files
 
-`git remote add origin ...` (paste address from GitHub)
+`git remote add origin https://github.com/user/repository-name.git` (paste repository address from GitHub)
 
 `git add .` to add new files
 
