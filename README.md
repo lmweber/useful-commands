@@ -61,6 +61,11 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `file filename` : for example to check which type of compressed file
 
 
+#### number of lines in a text file
+
+`wc -l <filename>`
+
+
 #### set path
 
 `export PATH=~/custom_directory:$PATH` (paste in `.bash_profile` or `.bashrc` file; note order of terms matters — first has highest priority)
