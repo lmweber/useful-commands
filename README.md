@@ -71,6 +71,11 @@ run R command `.libPaths()`
 `wc -l <filename>` : stands for word count, number of lines
 
 
+#### create symbolic link
+
+`ln -s <target> <name>` : creates a symbolic/soft link called `name` pointing to the file `target`
+
+
 #### set path
 
 `export PATH=~/new_directory:$PATH` (paste in `.bash_profile` or `.bashrc` file; note order of terms matters — first has highest priority)
