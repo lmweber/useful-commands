@@ -30,9 +30,9 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `ssh -X servername.uzh.ch` if using GUI applications (then just launch apps as usual — requires XQuartz on Mac OSX)
 
 
-#### find out where R libraries are saved (Mac OSX)
+#### find out where R libraries are saved
 
-R command `.libPaths()`
+run R command `.libPaths()`
 
 
 #### check Linux system/distribution info
