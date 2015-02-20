@@ -137,3 +137,8 @@ manually create `README.md`, `.gitignore`, and `LICENSE` files
 
 `git pull origin` (merges into local repository)
 
+
+#### git/GitHub — undo commit
+
+`git reset --soft HEAD^` : Use this to undo the previous commit if it hasn't been pushed to GitHub yet, for example if you have added the wrong files or want to change the commit message.
+
