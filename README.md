@@ -23,6 +23,11 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 `control-click` then select `Open`
 
 
+#### go to folder (in Finder, Mac OSX)
+
+`command-shift-G`
+
+
 #### connect to server
 
 `ssh servername.uzh.ch` then enter password
