@@ -150,9 +150,11 @@ manually create `README.md`, `.gitignore`, and `LICENSE` files
 
 #### render Rmarkdown document (R commands)
 
-Enter these commands in an R session. With the options as shown, two output files are created — HTML and standard markdown (.md). The standard markdown file is useful as it displays correctly in a GitHub repository (GitHub cannot automatically render Rmarkdown .Rmd files).
+Enter these commands in an R session to create output in both HTML and standard markdown (.md) format. The standard markdown file is useful as it can be viewed directly in a GitHub repository (GitHub cannot automatically render Rmarkdown .Rmd files). With the option `variant="markdown_strict"`, line breaks entered as single backslash characters render correctly on GitHub.
 
 `library("rmarkdown")`
 
-`rmarkdown::render("filename.Rmd", output_format="html_document", output_options=list(html_document=list(keep_md=TRUE)))`
+`rmarkdown::render("filename.Rmd", output_format="html_document")`
+
+`rmarkdown::render("filename.Rmd", output_format="md_document", output_options=list(variant="markdown_strict"))`
 
