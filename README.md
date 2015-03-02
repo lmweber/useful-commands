@@ -158,3 +158,8 @@ Enter these commands in an R session to create output in both HTML and standard 
 
 `rmarkdown::render("filename.Rmd", output_format="md_document", output_options=list(variant="markdown_strict"))`
 
+
+#### IPython Notebook
+
+To run IPython Notebook: Open Terminal, go to working directory using `cd`, then type `ipython notebook`. IPython Notebook should then open in the default browser (Chrome or Firefox).
+
