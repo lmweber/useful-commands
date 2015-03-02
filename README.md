@@ -103,6 +103,13 @@ run R command `.libPaths()`
 `make install` : run install part of Makefile (copies executables into directories)
 
 
+#### superuser access on Mac OSX
+
+switch user to admin account: `su Admin` (assuming account name is "Admin"), then enter password
+
+then can enter commands as superuser with `sudo <command>`
+
+
 #### GNU screen
 
 GNU screen is useful when working on a server, since programs running in a screen session will continue to run even if the server connection is interrupted.
