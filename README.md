@@ -125,6 +125,17 @@ GNU screen is useful when working on a server, since programs running in a scree
 full list of screen commands: http://aperiodic.net/screen/quick_reference
 
 
+#### GNU parallel
+
+GNU parallel lets you parallelize commands from the shell. This can be useful to greatly speed up runtime if you are running shell command-line utilities multiple times, and have a system with multiple processors.
+
+Here is an example of how to run GNU parallel.
+
+`parallel -j 24 fastq-dump --split-files -O FASTQ -- SRA/*.sra`
+
+The option `-j 24` sets the maximum number of processors; the rest of the command after this runs once on each processor; and any arguments after the double dashes `--` are expanded out (here it is a list of SRA files, so each processor gets one SRA file).
+
+
 #### git/GitHub — set up a repository
 
 `git init` to create local repository in a folder
