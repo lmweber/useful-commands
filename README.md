@@ -86,6 +86,11 @@ run R command `.libPaths()`
 `export PATH=~/new_directory:$PATH` (paste in `.bash_profile` or `.bashrc` file; note order of terms matters — first has highest priority)
 
 
+#### Terminal window (Mac OSX)
+
+`option + click` to place cursor anywhere on a line
+
+
 #### install program in home directory (Linux)
 
 `wget http://address.of.file/filename.tar.gz` : download .tar.gz source archive (run in `/home/username/src` folder to save it there)
