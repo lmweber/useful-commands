@@ -91,6 +91,13 @@ run R command `.libPaths()`
 `option + click` to place cursor anywhere on a line
 
 
+#### terminate a running process (Linux)
+
+`ctrl + \`
+
+Use this to terminate a process that is not responding to the standard `ctrl + c` command — this tends to happen with R sessions.
+
+
 #### install program in home directory (Linux)
 
 `wget http://address.of.file/filename.tar.gz` : download .tar.gz source archive (run in `/home/username/src` folder to save it there)
