@@ -163,7 +163,9 @@ manually create `README.md`, `.gitignore`, and `LICENSE` files
 
 `git add .` (if no new files can skip this and go straight to commit)
 
-`git commit -am "commit message"` to commit
+or `git add -A .` to include file deletions
+
+`git commit -am "commit message"` to commit (-a includes file deletions)
 
 `git push -u origin master` to push to GitHub
 
