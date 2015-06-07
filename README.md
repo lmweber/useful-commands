@@ -60,6 +60,8 @@ run R command `.libPaths()`
 
 `ls -alh` : list files — including hidden files and directories (-a), long format details (-l), and human readable file sizes (-h)
 
+`ls -t` : sort by date modified
+
 
 #### show disk usage of directories
 
