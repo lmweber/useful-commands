@@ -136,6 +136,8 @@ GNU screen is useful when working on a server, since programs running in a scree
 
 `screen -ls` : list running screen sessions
 
+`screen -d -r` : force detach and reattach a screen if connection drops out
+
 full list of screen commands: http://aperiodic.net/screen/quick_reference
 
 
