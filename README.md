@@ -30,7 +30,7 @@ A collection of useful commands and keyboard shortcuts for Mac OSX and Linux. Mo
 
 #### connect to server
 
-`ssh servername.uzh.ch` then enter password
+`ssh servername.uzh.ch` then enter password (you can also set up automatic password with `ssh keygen`)
 
 `ssh -X servername.uzh.ch` if using GUI applications (then just launch apps as usual — requires XQuartz on Mac OSX)
 
