@@ -117,6 +117,15 @@ Use this to terminate a process that is not responding to the standard `ctrl + c
 `make install` : run install part of Makefile (copies executables into directories)
 
 
+#### tar options (Linux)
+
+`tar -xfvz` : uncompress .tar.gz files
+
+`tar -xjf` : uncompress bzipped files
+
+`tar -czf` : create a zipped tar file
+
+
 #### superuser access on Mac OSX
 
 switch user to admin account: `su Admin` (assuming account name is "Admin"), then enter password
